@@ -20,12 +20,11 @@ return NewBeatlesloops
 
 function iLoveTheBeatles (parameter) {
   var empty = []
-  let parameter = o
     let i = 0
   do {
     empty.push("I love the Beatles!");
     i++;
     }
-    while (i < o && o < 15)
+    while (i <= parameter && parameter < 15)
     return empty
 }
