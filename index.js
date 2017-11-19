@@ -25,6 +25,6 @@ function iLoveTheBeatles (parameter) {
     empty.push("I love the Beatles!");
     i++;
     }
-    while (i < parameter < 15)
+    while (i < paramter and paramter < 15)
     return empty
 }
