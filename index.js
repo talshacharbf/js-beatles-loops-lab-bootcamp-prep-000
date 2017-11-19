@@ -22,9 +22,10 @@ function iLoveTheBeatles (parameter) {
   var empty = []
   var paramter = i
     let i = 0
-  do { empty["I love the Beatles!"]
-    i++
+  do {
+    empty.push("I love the Beatles!");
+    i++;
     }
-    while (parameter < 15)
+    while (i < 15)
     return empty
 }
